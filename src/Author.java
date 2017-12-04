@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Author extends Person {
-    private ArrayList<String> books;
+    private List<String> books;
 
 
     public Author(String firstName, String lastName) {
@@ -21,7 +21,7 @@ public class Author extends Person {
         return books;
     }
 
-    public ArrayList<String> publishedBooks() {
+    public List<String> publishedBooks() {
         return books;
     }
 
